@@ -28,4 +28,8 @@ public class UserView {
         return email;
     }
 
+    @Override
+    public String toString() {
+        return "id " + id + " email " + email + " username " + username;
+    }
 }
